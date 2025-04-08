@@ -1,6 +1,10 @@
-# linux-apple-resources
+# Hoolock Linux Documentation
 
-Instructions to boot Linux on A7-A11, T2 Apple devices.
+Documentation for Linux on A7-A11, T2 Apple devices.
+
+This document contains information about building and booting the kernel.
+
+For feature support, see [FEATURES.md](./FEATURES.md).
 
 Excluded devices:
   - HomePod (not tested, so no device tree included)
@@ -13,13 +17,13 @@ Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 
 - [checkra1n 1337](https://checkra.in/1337)
 - [PongoOS (with bootm)](https://github.com/checkra1n/PongoOS/tree/iOS15)
-- [Linux Kernel](https://github.com/asdfugil/linux-apple) branch `apple`
-- [m1n1-idevice](https://github.com/asdfugil/m1n1-idevice)
-- [pongoterm.c](https://github.com/palera1n/PongoOS/raw/iOS15/scripts/pongoterm.c)
+- [Linux Kernel](https://github.com/hooklocklinux/linux) branch `hoolock`
+- [m1n1-idevice](https://github.com/hoolocklinux/m1n1)
+- [pongoterm.c](https://github.com/checkra1n/PongoOS/raw/iOS15/scripts/pongoterm.c)
 - An arm64 initramfs, an example is included here as well.
 
 Prebuilt PongoOS and can be found in this repository. You can find
-prebuilt m1n1-idevice binaries from the [CI build output](https://nightly.link/asdfugil/m1n1-idevice/workflows/build/idevice/m1n1.zip).
+prebuilt m1n1-idevice binaries from the [CI build output](https://nightly.link/hoolocklinux/m1n1/workflows/build/idevice/m1n1.zip).
 `m1n1.bin` is that one that should be used alongside pongoOS like in the following instructions. `m1n1-idevice.macho` and `monitor-stub.macho`
 is for booting with Apple's iBoot. That process is more complicated and has not been documented yet.
 
