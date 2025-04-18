@@ -88,6 +88,8 @@ After booting pongoOS, run pongoterm as root:
 printf '/send /path/to/m1n1-linux.bin\nbootm\n' | sudo pongoterm
 ```
 
+Click [here](./images/m1n1/README.md) to see how the screen looks like while in m1n1.
+
 ## Acknowledgements
 
 - [Asahi Linux](https://asahilinux.org/) - m1n1 and Apple M1 Linux support
