@@ -17,7 +17,7 @@ Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 
 - [checkra1n 1337](https://checkra.in/1337)
 - [PongoOS (with bootm)](https://github.com/checkra1n/PongoOS/tree/iOS15)
-- [Linux Kernel](https://github.com/hooklocklinux/linux) branch `hoolock`
+- [Linux Kernel](https://github.com/hoolocklinux/linux) branch `hoolock`
 - [m1n1-idevice](https://github.com/hoolocklinux/m1n1)
 - [pongoterm.c](https://github.com/checkra1n/PongoOS/raw/iOS15/scripts/pongoterm.c)
 - An arm64 initramfs, an example is included here as well.
