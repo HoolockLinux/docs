@@ -57,8 +57,8 @@ Assuming you are in the m1n1 source tree, the command should look like this.
 
 ```
 cat build/m1n1.bin <(echo 'chosen.bootargs=<kernel command line here>')  \
-	/path/to/linux-apple/arch/arm64/boot/dts/apple/*.dtb \
-	/path/to/linux-apple/arch/arm64/boot/Image.gz  \
+	/path/to/hoolock-linux/arch/arm64/boot/dts/apple/*.dtb \
+	/path/to/hoolock-linux/arch/arm64/boot/Image.gz  \
 	/path/to/initramfs.gz  > m1n1-linux.bin
 ```
 
