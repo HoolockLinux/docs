@@ -3,7 +3,7 @@
 This directory contain support tools for HoolockLinux.
 They are intended to be ran under jailbroken iOS/tvOS/bridgeOS, or a SSH ramdisk.
 
-Download precompiled tools: [iOS/iPadOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-iphoneos.zip) | [tvOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-appletvos.zip) | [bridgeOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-bridgeOS.zip)
+Download precompiled tools: [iOS/iPadOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-iphoneos.zip) | [tvOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-appletvos.zip) | [bridgeOS](https://nightly.link/hoolocklinux/docs/workflows/build/master/hoolock-support-bridgeos.zip)
 
 ## Disk partition tools
 
