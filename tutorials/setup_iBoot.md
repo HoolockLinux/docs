@@ -5,15 +5,24 @@ device is booted as if it is about to undergo a restore.
 
 > [!WARNING]
 > This method require a set of files for every chip you want
-to boot Linux on, and the hardware is more locked down in this method.
-You also needs a bunch of flimsy tools. Many of the tools are not sound.
-The tools are often ambigously forked. A fork that works on one version/device
+to boot Linux on.
+
+> [!WARNING]
+> After booting, the hardware is more locked down in this method.
+
+> [!WARNING]
+> This method required a bunch of flimsy tools that are not sound and might crash if anything is not right.
+
+> [!WARNING]
+> The tools are often ambigously forked. A fork that works on one version/device
 combination might not work on another version/device combination. Another
 fork might fix it but might break some other version/device combination.
-And if you are linux, then some of the tools uses mach-o format headers that
-one would need to copy and hacked up from macOS for the tools to be built for
-Linux. Some of the tools might be diffcult to compile on Linux and require
-specific compiler flags, and clang is required.
+
+> [!WARNING]
+>  Some of the tools uses mach-o format headers that one would need to copy from
+   macOS and hacked up for the tools to be built for. Some of the tools might be
+   diffcult to compile on Linux and require specific compiler flags, and clang
+   is required.
 
 The reason this method exists is that it has the potential to be used
 in wrappers like `pmbootstrap` (not supported yet). One is not expected
