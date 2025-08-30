@@ -43,7 +43,7 @@ clang -x objective-c pongoterm.c -framework IOKit -framework CoreFoundation -fra
 
 ### Kernel config
 
-[KERNEL.md](./KERNEL.md)
+[KERNEL.md](./tutorials/KERNEL.md)
 
 To compile the kernel with clang:
 ```
