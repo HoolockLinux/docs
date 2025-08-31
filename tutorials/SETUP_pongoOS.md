@@ -2,7 +2,7 @@
 
 ## Building pongoOS
 
-This one might be tricky to build on Linux so you could also grab the prebuilt binary: [PongoOS.bin](./binaries/Pongo.bin)
+This one might be tricky to build on Linux so you could also grab the prebuilt binary: [Pongo.bin](./binaries/Pongo.bin)
 
 ### macOS
 
