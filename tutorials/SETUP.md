@@ -83,7 +83,8 @@ at `arch/arm64/boot/dts/apple/*.dtb`
 
 Choose a method.
 
-The pongoOS method is less annoying, and you only need a single set of file.
+The pongoOS method is less annoying, and you only need at most two sets of
+files (4k and 16k kernel) if you plan to boot linux on different devices.
 However, this only works when the device can be booted into normal OS.
 
 The iBoot method does not depend on anything on main internal disk. However
