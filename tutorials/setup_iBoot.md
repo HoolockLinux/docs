@@ -44,7 +44,6 @@ the same tools and libraries so you might want to check how their [builds are ge
 Get relatively sound tools and libraries:
 
 - [ipsw](https://github.com/blacktop/ipsw)
-- [curl](https://github.com/curl/curl) (Linux only, macOS already has curl preinstalled);
 - [openssl 3.0.3](https://github.com/openssl/openssl) (or CommonCrypto on macOS);
 - [libusb 1.0](https://github.com/libusb/libusb) (Linux only, macOS can use IOKit for libirecovery);
 - [libzip](https://github.com/nih-at/libzip);
