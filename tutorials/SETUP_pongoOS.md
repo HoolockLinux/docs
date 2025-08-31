@@ -150,6 +150,10 @@ visiually boots pongoOS fine. In that case it is okay to interrupt.
 
 4. Boot m1n1+Linux
 
+> [!TIP]
+> To boot just m1n1 and not Linux, use `build/m1n1.bin` in the
+m1n1 source tree instead of the combined `m1n1-linux.bin`file.
+
 ```
 # printf '/send /path/to/m1n1-linux.bin\nbootm\n | pongoterm' 
 ```
@@ -157,5 +161,5 @@ visiually boots pongoOS fine. In that case it is okay to interrupt.
 After the device is visibly booting m1n1 it is okay to interrupt.
 
 m1n1 will then parse the files appended to it, which, in this case is
-Linux and boot it. To boot just m1n1, use `build/m1n1.bin` in the
-m1n1 source tree instead of the combined file.
+Linux and boot it.
+

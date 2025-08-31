@@ -35,7 +35,7 @@ by some tools. Try [these hacked headers](../include) on Linux.
 
 > [!TIP]
 > Some of the tools has flimsy build systems and you might want to skip them entirely on Linux and invoke
-the compiler directly.
+the clang compiler directly.
 
 > [!TIP]
 > [Futurerestore](https://github.com/futurerestore/futurerestore/tree/dev) has linux builds and uses many of
@@ -252,7 +252,11 @@ Wrap up the empty trustcache as well:
 $ img4 -i empty_trustcache -o trustcache.img4 -A -T rtsc -M 0x7000.im4m # rtsc = RestoreTrustCache
 ```
 
-Wrap m1n1 into a fake RestoreKernelCache. This step is different depending on the device
+Wrap m1n1 into a fake RestoreKernelCache. This step is different depending on the device:
+
+> [!TIP]
+> To boot just m1n1 and not Linux, use the `m1n1-idevice.macho` in the m1n1 build folder
+in place of the combined `m1n1-linux.macho`file.
 
 #### A7, A8, A8X, A9, A9X
 
