@@ -95,3 +95,21 @@ for that SoC is either lacking or broken.
 
 - [pongoOS](./SETUP_pongoOS.md)
 - [iBoot](./SETUP_iBoot.md)
+
+
+## Interaction
+
+This depends on what initramfs you use. If you use the example one:
+
+- A shell will be spawned on serial console, except on Apple TV HD.
+    (that one uses a different uart for that purpose and the example does not handle that)
+- Emulate all of:
+    - USB Ethernet Adapter
+    - USB Mass storage device
+    - USB Serial Adapter (likely `/dev/ttyACM0` on the host)
+
+A shell is spwned USB serial adapter is a shell. If configured properly with dhcpcd
+or NetworkManager, the device will assign itself the IPv4 `172.16.42.1`, and the
+host `172.16.42.2`. A telnet shell should be available on `172.16.42.1` port 23.
+
+The USB mass storage device is a 32 MB FAT16 ramdisk with log files in it.
