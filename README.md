@@ -18,6 +18,19 @@ to use the pongoOS method.
 
 Click [here](./images/m1n1/README.md) to see how the screen looks like while in m1n1.
 
+## Support & Community
+
+You can open an [issue](https://github.com/hoolocklinux/docs/issues/new) on this repository for support.
+
+The following chatrooms are also available:
+
+- [Matrix (The Apple Basement)](https://matrix.to/#/#theapplebasement:matrix.org)
+
+This one is for development and **NOT** for support:
+
+- [Discord (Hack Different #linux)](https://discord.gg/NAxRYvysuc)
+
+
 ## Acknowledgements
 
 - [Asahi Linux](https://asahilinux.org/) - m1n1 and Apple M1 Linux support
