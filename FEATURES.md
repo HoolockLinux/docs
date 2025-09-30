@@ -13,7 +13,7 @@ These documents provide information on feature support on supported devices as w
 ## Upstreaming staticstics
 
 The table below lists the amount of non-merge commits between each mainline release and the corresponding linux-apple tag.
-<!-- git rev-list v6.16..hoolock-6.16 --no-merges --count -->
+<!-- git rev-list v6.17..hoolock-6.17 --no-merges --count -->
 
 |              | HoolockLinux tag | commit count |
 |--------------|:----------------:|:------------:|
@@ -21,3 +21,4 @@ The table below lists the amount of non-merge commits between each mainline rele
 | v6.14        | apple-6.14       | 111          |
 | v6.15        | apple-6.15       | 96           |
 | v6.16        | hoolock-6.16     | 93           |
+| v6.17        | hoolock-6.17     | 107          |
