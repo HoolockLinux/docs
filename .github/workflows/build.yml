@@ -5,6 +5,8 @@ on:
     paths:
       - 'tools/**'
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
   build-darwin:
