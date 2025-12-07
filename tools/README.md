@@ -18,6 +18,8 @@ It is used to inspect and modify the partition table.
 
 It should be signed with entitlements in `gdisk.xml`.
 
+Each sector/block in gdisk is 4096 bytes long.
+
 ### resize.c / resize_apfs
 
 This is an apfs container resize tool.
