@@ -139,7 +139,7 @@ or use their script:
 3. Boot pongoOS
 
 ```
-# PALERA1N_BYPASS_PASSCODE_CHECK=1 palera1n -lkp /path/to/pongoOS/build/Pongo.bin
+# PALERA1N_BYPASS_PASSCODE_CHECK=1 palera1n -lp -k /path/to/pongoOS/build/Pongo.bin
 ```
 
 Follow DFU instructions. On Apple TV 4K and T2 there you should enter DFU mode
@@ -155,7 +155,7 @@ visiually boots pongoOS fine. In that case it is okay to interrupt.
 m1n1 source tree instead of the combined `m1n1-linux.bin`file.
 
 ```
-# printf '/send /path/to/m1n1-linux.bin\nbootm\n | pongoterm' 
+# printf '/send /path/to/m1n1-linux.bin\nbootm\n' | pongoterm 
 ```
 
 After the device is visibly booting m1n1 it is okay to interrupt.
