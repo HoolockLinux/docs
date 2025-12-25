@@ -16,6 +16,9 @@ Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 Check [SETUP.md](./tutorials/SETUP.md). There are two methods but you are recommended
 to use the pongoOS method.
 
+Internal storage is supported on Apple A11. Compiled [tools](./tools/README.md) are
+provided to help you partition the disk.
+
 Click [here](./images/m1n1/README.md) to see how the screen looks like while in m1n1.
 
 ## Support & Community
