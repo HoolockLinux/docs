@@ -219,6 +219,10 @@ main: Quitting...
 
 ### Wrap up files
 
+You need an arm64 Linux initramfs. It must be compressed with gzip.
+Example [initramfs.gz.zip](https://nightly.link/HoolockLinux/HoolockRD/workflows/build/master/initramfs.gz.zip).
+Extract the zip before using the example.
+
 Create the m1n1 Mach-O blob:
 
 ```

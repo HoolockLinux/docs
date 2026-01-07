@@ -115,7 +115,8 @@ $ clang -Os pongoterm.c -DUSE_LIBUSB -lusb-1.0 -o pongoterm
 ## Boot the thing
 
 You need an arm64 Linux initramfs. It must be compressed with gzip.
-Example [initramfs.gz](./binaries/initramfs.gz).
+Example [initramfs.gz.zip](https://nightly.link/HoolockLinux/HoolockRD/workflows/build/master/initramfs.gz.zip).
+Extract the zip before using the example.
 
 1. Prepare m1n1 blob
 
