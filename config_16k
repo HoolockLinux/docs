@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 6.19.0-rc2 Kernel Configuration
+# Linux/arm64 6.19.0-rc4 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="clang version 20.1.8 (Fedora 20.1.8-4.fc42)"
 CONFIG_GCC_VERSION=0
@@ -2195,6 +2195,7 @@ CONFIG_BATTERY_BQ27XXX=y
 # CONFIG_CHARGER_BD99954 is not set
 # CONFIG_BATTERY_UG3105 is not set
 # CONFIG_FUEL_GAUGE_MM8013 is not set
+CONFIG_MACSMC_POWER=y
 CONFIG_HWMON=y
 # CONFIG_HWMON_DEBUG_CHIP is not set
 
