@@ -65,9 +65,9 @@ One can delete and recreate the snapshot with a tool like [`snaputil`](https://g
 
 In order for a resize to work, the SEP firmware must be loaded, and gigalocker
 must be initialized. This is already done in normal iOS. In a ramdisk, this
-may not be possible on Apple A10(X), A11 on iOS 16/17.
+is not be possible on Apple A10(X), A11 on iOS/iPadOS 16 and above.
 
-(May be possible on higher tvOS/bridgeOS versions)
+Resize in ramdisk is still possible on tvOS 16+/bridgeOS 7+ as well as previous chips.
 
 If you use [SSHRD_Script](https://github.com/verygenericname/SSHRD_Script.git), the following command should do:
 
