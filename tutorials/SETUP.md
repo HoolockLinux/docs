@@ -87,11 +87,8 @@ The pongoOS method is less annoying, and you only need at most two sets of
 files (4k and 16k kernel) if you plan to boot linux on different devices.
 However, this only works when the device can be booted into normal OS.
 
-The iBoot method does not depend on anything on main internal disk. However
-this method is extra annoying (check the specific guide for details).
-
-The iBoot method also may not work on T8012 (T2) because the pwned DFU tools
-for that SoC is either lacking or broken.
+The iBoot method is slightly more annoying but it does not depend on
+anything on main internal disk.
 
 - [pongoOS](./SETUP_pongoOS.md)
 - [iBoot](./SETUP_iBoot.md)
