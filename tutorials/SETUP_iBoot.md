@@ -13,13 +13,14 @@ independent of the files stored on disk.
 Get tools and libraries:
 
 - [ipsw](https://github.com/blacktop/ipsw)
-- [openssl 3 (static)](https://github.com/openssl/openssl) (or CommonCrypto on macOS);
-- [libusb 1.0 (static)](https://github.com/libusb/libusb) (Linux only, macOS can use IOKit for libirecovery);
+- [openssl 3](https://github.com/openssl/openssl) (or CommonCrypto on macOS);
+- [libusb 1.0](https://github.com/libusb/libusb) (Linux only, macOS can use IOKit for libirecovery);
 - [libirecovery](https://github.com/libimobiledevice/libirecovery);
-- [hBootPatcher](https://github.com/HoolockLinux/hBootPatcher);
-- [gaster(verygenericname)](https://github.com/verygenericname/gaster)
+- xxd (from vim)
+- lsusb (from util-linux) on Linux
+- LLVM and clang compiler
 
-Make sure `hBootPatcher`, `irecovery`, `gaster` and `ipsw` is in your `PATH`
+Make sure `irecovery`, and `ipsw` is in your `PATH`
 
 ## m1n1 Mach-O blob
 
@@ -142,6 +143,18 @@ patch_recfg: Found recfg
    • Created IMG4              path=./cache/iBEC_j98aap_iPad6,7.img4 size=454 kB
    • Created IMG4              path=./cache/RestoreDeviceTree_j98aap_iPad6,7.img4 size=160 kB
 ```
+
+### Firmware
+
+The kernel may require files from `/lib/firmware`
+
+```
+$ ./remoteboot.sh firmware
+```
+
+will attempt to download firmware and output them in a layout suitable for
+`/lib/firmware`. Some functionalities will require firmware to be in the
+rootfs or initramfs.
 
 ### Boot
 

@@ -110,6 +110,19 @@ $ clang -Os pongoterm.c -DUSE_LIBUSB -lusb-1.0 -o pongoterm
 
 ```
 # install -m755 pongoterm /usr/local/bin/pongoterm
+
+```
+
+## Firmware
+
+The kernel may require files from `/lib/firmware`.
+[hKernelFWExtractor](https://github.com/hoolockLinux/hKernelFWExtractor)
+extract firmware from XNU kernels. However, it is probably better to use
+iBoot method's [remote_boot](https://github.com/HoolockLinux/remote_boot)
+to do this part to handle the download as well.
+
+```
+$ ./remoteboot.sh firmare
 ```
 
 ## Boot the thing
