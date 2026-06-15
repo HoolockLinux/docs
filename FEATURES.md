@@ -25,3 +25,4 @@ The table below lists the amount of non-merge commits between each mainline rele
 | v6.18        | hoolock-6.18     | 86           |
 | v6.19        | hoolock-6.19     | 97           |
 | v7.0         | hoolock-7.0      | 90           |
+| v7.1         | hoolock-7.1-1    | 94           |
