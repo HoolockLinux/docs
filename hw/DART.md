@@ -34,7 +34,7 @@ for more information.
 | [STREAM_COMMAND](#stream_command-stream-commnad-register)    |   4   | 0x00  | TLB cache control              | R/W  |
 | [TCR](#tcr-translation-control-register)               |   4   | 0xc   | Translation Controls           | R/W  |
 | [ERROR](#error-error-indication-register)             |   4   | 0x10  | Error indicator                | R/W  |
-| [ERROR_ADDR_LO](#error_addr_lo-error-address-low)             |   4   | 0x10  | Error Address (Low)               | R/W  |
+| [ERROR_ADDR_LO](#error_addr_lo-error-address-low)             |   4   | 0x1c  | Error Address (Low)               | R/W  |
 | [DIAG_CONFIG](#diag_config-diagnostic-configuration)       |   4   | 0x20  | Unknown Tunables               | R/W  |
 | [BYPASS_ADDR](#bypass_addr-bypass-mode-address)       |   4   | 0x2c  | Bit[35:32] in bypass mode      | R/W  |
 | [FETCH_CONFIG](#fetch_config-fetch-configuration)      |   4   | 0x30  | Unknown Tunables               | R/W  |
