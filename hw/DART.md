@@ -56,6 +56,9 @@ This register allows TLB cache of a given stream to be invalidated.
 For example, to invalidate the TLB cache for stream 0, write `STREAM_0 | INVALIDATE`
 into the register, and when `BUSY` clears, the operation is completed.
 
+**IMPORTANT**: `dart,s5l8960x` requires translation to be enabled in `TCR` for TLB
+invalidtion, otherwise the busy bit never clears
+
 ### TCR, Translation Control Register
 
 This register control translation on/off. When translation is off, the DART is in
@@ -122,6 +125,14 @@ and `idx` is the TTBR to use from `0-3`.
 |-------------------|:-------------:|:-----:|:--------------------------------:|
 | [31]              | VALID         | R/W   | Indicate that this TTBR is valid |
 | [23:0]            | ADDR          | R/W   | Page address (Bit [35:12]) of the translation table base. The translation table must be 4K page-aligened. |
+
+### Programming Model
+
+1. Setup pagetables
+2. Set TTBRs pointing to pagetables
+3. Enable Traslation in `TCR`
+4. Invalidate TLB in `STREAM_COMMAND`
+5. IOVA is now mapped
 
 ## dart,t8015
 
