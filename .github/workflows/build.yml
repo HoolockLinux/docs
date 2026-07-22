@@ -17,12 +17,12 @@ jobs:
             gnu_triple: aarch64-apple-darwin
             os: iphoneos
             targetos_os: ios
-            minos: 11.0
+            minos: 10.3
           - arch: arm64
             gnu_triple: aarch64-apple-darwin
             os: appletvos
             targetos_os: tvos
-            minos: 11.0
+            minos: 10.3
           - arch: arm64
             gnu_triple: aarch64-apple-darwin
             os: bridgeos
