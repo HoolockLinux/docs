@@ -68,7 +68,7 @@ $ make -j$(nproc) LLVM=1 ARCH=arm64 menuconfig
 
 Press `/` to search for a config option. With the example config it is fine
 already on A9-A11, T2 SoCs, but if you use A7 - A8, then search for
-`CONFIG_ARM64_4K` and enable that instead of `CONFIG_ARM64_16K`.
+`CONFIG_ARM64_4K_PAGES` and enable that instead of `CONFIG_ARM64_16K_PAGES`.
 
 5. Compile
 
